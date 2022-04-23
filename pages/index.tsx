@@ -39,18 +39,24 @@ const Home: NextPage = () => {
 
   /** This will be used to create set of options that user will see */
   let option = null;
+  let imageSource = "";
 
   /** Setting options variable according to dropdown */
   if (selected === "Chennai") {
     option = "MAA";
+    imageSource="../Chennai.png";
   } else if (selected === "Gothenburg") {
     option = "GOT";
+    imageSource="../Gothenburg.png";
   } else if (selected === "Istanbul") {
     option = "IST";
+    imageSource="../Istanbul.png";
   } else if (selected === "Manchester") {
     option = "MAN";
+    imageSource="../Manchester.png";
   } else if (selected === "Zurich") {
     option = "ZUR";
+    imageSource="../Zurich.png";
   }
 
   return (
@@ -104,10 +110,8 @@ const Home: NextPage = () => {
                 } to AMS
             </div>
             <br/>
-            <br/>
-            
             <div>
-              <img src='../Chennai.png'></img>
+              <img src={imageSource}></img>
             </div>
           </form>
 
