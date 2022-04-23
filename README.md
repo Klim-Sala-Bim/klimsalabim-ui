@@ -40,6 +40,7 @@ http://www.klimsalabim.xyz/
 
 - Streaming functionality to compensate for the stay of the participant at the event (Retire at the end) empowered by Superfluid Protocol.
 - NFT claiming functionality from Toucan Protocol and extending it with information about the event.
+- Use EPNS to inform participants for when the contribution period has been closed and they can, for example, view the final version of their (dynamic, SVG-based) NFT.
 
 ## Developers
 - Caroline Kabat (Tweet @carolinekabat)
