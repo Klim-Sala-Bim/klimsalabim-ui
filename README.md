@@ -31,6 +31,7 @@ Technologies
 - Art Design - Adobe PhotoShop, Adobe Illustrator
 - Testnet - Mumbai Polygon , Polygon Mainnet (Future roadmap)
 - Tools - Brownie, Coinbase SDK, Metamask
+- CI/CD - Netlify
 
 ## Demo Url
 
