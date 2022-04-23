@@ -1,0 +1,19 @@
+.header {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  height: 4em;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header li {
+  margin-right: 40px;
+}
