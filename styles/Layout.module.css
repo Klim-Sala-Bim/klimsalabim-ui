@@ -1,5 +1,5 @@
 .main {
-  min-height: calc(100vh - 4em);
+  min-height: calc(100vh - 14em);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,11 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.center {
+  border: 5px solid #FFFF00;
+  text-align: center;
+  }
 
 @media (max-width: 600px) {
 
