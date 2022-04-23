@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background: #348F50;
-    background: -webkit-linear-gradient(to right, #56B4D3, #348F50); 
-    background: linear-gradient(to right, #56B4D3, #348F50);
+  font-family: 'Readex Pro', sans-serif;
+  background: #348F50;
+  background: -webkit-linear-gradient(to right, #56B4D3, #348F50); 
+  background: linear-gradient(to right, #56B4D3, #348F50);
 }
 
 a {
@@ -16,4 +17,26 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  background: #1C1924;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  font-size: 24px; 
+  border-radius: 2em;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 16px 32px;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+.button-text {
+  background: linear-gradient(73.6deg, #85FFC4 2.11%, #5CC6FF 42.39%, #BC85FF 85.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
