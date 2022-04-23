@@ -20,7 +20,7 @@ Architecture:
 
 - Toucan helper contracts for retiring carbon certificates
 - KlimSalaBim smart contracts accumulates the total emissions 
-- React-based NFT Dapp to mint Panther NFT and participate in lottery.
+- Next.js App which enables users interact with klimsalabim.sol and Toucan protocol helpers
 
 Technologies
 
