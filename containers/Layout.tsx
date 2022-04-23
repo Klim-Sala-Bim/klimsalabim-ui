@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Header } from '../components/Header'
+import styles from '../styles/Layout.module.css';
 
 export const Layout = ({ children}: any ) => (
   <>
@@ -11,8 +12,8 @@ export const Layout = ({ children}: any ) => (
         content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
       />
     </Head>
-    <main>
-      <Header />
+    <Header />
+    <main className={styles.main}>
       {children}
     </main>
   </>
