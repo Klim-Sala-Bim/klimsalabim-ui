@@ -15,11 +15,6 @@ const Home: NextPage = () => {
     supportedChainIds: [80001],
   });
 
-  const WalletConnect = new WalletConnectConnector({
-    rpcUrl: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_KEY_MUMBAI_TESTNET}`,
-    bridge: 'https://bridge.walletconnect.org',
-    qrcode: true,
-  });
 
   const Injected = new InjectedConnector({
     supportedChainIds: [80001],
@@ -38,13 +33,6 @@ const Home: NextPage = () => {
         }}
       >
         Coinbase Wallet
-      </button>
-      <button
-        onClick={() => {
-          activate(WalletConnect);
-        }}
-      >
-        Wallet Connect
       </button>
       <button
         onClick={() => {
