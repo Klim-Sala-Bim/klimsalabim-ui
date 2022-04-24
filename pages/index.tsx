@@ -123,7 +123,7 @@ const Home: NextPage = () => {
         </div>
       )}
       {active && (
-        <div style={{ border: '1px solid red' }}>
+        <div>
           {option ? (
             <div
               style={{
