@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
   const CoinbaseWallet = new WalletLinkConnector({
     // url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_KEY_MUMBAI_TESTNET}`,
-    url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_KEY_MUMBAI_MAINNET}`,
+    url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_KEY_MAINNET}`,
     appName: 'KlimSalaBim',
     supportedChainIds: [137, 80001],
   });
