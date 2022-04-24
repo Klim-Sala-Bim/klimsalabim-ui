@@ -85,12 +85,16 @@ const Home: NextPage = () => {
 
     const wallet = await library.getSigner().getAddress();
 
+    console.log("wallet: ",wallet);
+    console.log("signer: ", library.getSigner());
+    console.log("Address: ", library.getSigner().getAddress());
+
     const res = await contract.compensateSingleParticipantTravel(
       'Gothenburg',
       1337,
-      10000000000000000,
+      10000000000,
       0,
-      { sender: wallet, value: 54882117495512018 }
+      { sender: wallet, value: 548821174 }
     );
     
     console.log(res);
@@ -134,9 +138,6 @@ const Home: NextPage = () => {
                   style={{ borderRadius: '24px', maxWidth: '400px' }}
                   src={imageSource}
                 ></img>
-              </div>
-              <div>
-                distance: {distanceKm}
                 <button onClick={sendMatic}>Send MATIC</button>
               </div>
             </div>
